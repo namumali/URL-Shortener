@@ -1,0 +1,31 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "The project focuses on developing a URL shortening service that converts long URLs into shorter, more manageable links. The service generates unique short links and handles the redirection process when these short links are accessed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namumali/URL-Shortener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namumali/URL-Shortener/issues"
+  },
+  "homepage": "https://github.com/namumali/URL-Shortener#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.13.2",
+    "shortid": "^2.2.17"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
